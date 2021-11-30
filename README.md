@@ -7,13 +7,17 @@ Our team report on a hierarchically resistive skin (HR-skin) which can overcome 
 Methods
 =======
 
-network
+Network
 -------
-Regarding the neural network, we initially trained two different 4-layer fully connected neural networks for classification. The two networks have the same numbers of hidden layers and neurons, but the different parameters, because one is based-on raw signals, named time-domain neural network, and the other employed FFT responses, called frequency-domain neural network. Next, based on two pretrained networks, we trained the third fully connected neural network, taking the input of concatenated outputs from the second-to-last layers from these two networks.
+Regarding the neural network, we initially trained two different 4-layer fully connected neural networks for classification. 
 
-signal processing
+The two networks have the same numbers of hidden layers and neurons, but the different parameters, because one is based-on raw signals, named time-domain neural network, and the other employed FFT responses, called frequency-domain neural network.
+
+Next, based on two pretrained networks, we trained the third fully connected neural network, taking the input of concatenated outputs from the second-to-last layers from these two networks.
+
+Signal processing
 -----------------
-we used fft to extract the frequency features of raw signals, and used some filters for detecting two rates.
+We used fft to extract the frequency features of raw signals, and used some filters for detecting two rates.
 
 Experiment
 ==========
@@ -27,4 +31,5 @@ The final classification accuracy of the fused model could reach up to **88.93% 
 Addational
 ==========
 The folder "live demo" is only a toy model for live demonstration.
+
 The paper "*A Hierarchically Resistive Skin as Intelligent Multimodal On-Throat Wearable Biosensors*" is under reviewed by Nature Materials now.
