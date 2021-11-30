@@ -26,4 +26,5 @@ The final classification accuracy of the fused model could reach up to **88.93% 
 
 Addational
 ==========
+The folder "live demo" is only a toy model for live demonstration.
 The paper "*A Hierarchically Resistive Skin as Intelligent Multimodal On-Throat Wearable Biosensors*" is under reviewed by Nature Materials now.
