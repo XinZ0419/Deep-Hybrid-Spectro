@@ -21,8 +21,9 @@ We used fft to extract the frequency features of raw signals, and used some filt
 
 Experiment
 ==========
-The network aims to classify 11 classes of throat activities, including speaking yes/no/one/two, nodding/shaking/stretch,
-nodding+yes/nodding+no/shaking+yes/shaking+no. 
+The network aims to classify 11 classes of throat activities, including 
+
+**speaking yes/no/one/two, nodding/shaking/stretch, nodding+yes/nodding+no/shaking+yes/shaking+no**. 
 
 The classification accuracies of the time-domain model and frequency-domain model could reach up to **85.69% ±1.38%** and **71.38% ±1.76%** respectively. 
 
