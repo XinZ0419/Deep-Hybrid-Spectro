@@ -15,9 +15,9 @@ The two networks have the same numbers of hidden layers and neurons, but the dif
 
 Next, based on two pretrained networks, we trained the third fully connected neural network, taking the input of concatenated outputs from the second-to-last layers from these two networks.
 
-Signal processing
+Rate Detection
 -----------------
-We used fft to extract the frequency features of raw signals, and used some filters for detecting two rates.
+We used stft to extract the frequency features from raw signals, and used some filters for detecting two rates.
 
 Experiment
 ==========
@@ -25,12 +25,12 @@ The network aims to classify 11 classes of throat activities, including
 
 **speaking yes/no/one/two, nodding/shaking/stretch, nodding+yes/nodding+no/shaking+yes/shaking+no**. 
 
-The classification accuracies of the time-domain model and frequency-domain model could reach up to **85.69% ±1.38%** and **71.38% ±1.76%** respectively. 
+The classification accuracies of the time-domain model and frequency-domain model could reach up to **76.28% ±1.25%** and **89.57% ±2.26%** respectively. 
 
-The final classification accuracy of the fused model could reach up to **88.93% ±0.28%** for 11 throat activities.
+The final classification accuracy of the fused model could reach up to **92.73% ±0.82%** for 11 throat activities.
 
 Addational
 ==========
 The folder "live demo" is only a toy model for live demonstration.
 
-The paper "*A Hierarchically Resistive Skin as Intelligent Multimodal On-Throat Wearable Biosensors*" is under reviewed by Nature Materials now.
+The paper "*A Hierarchically Resistive Skin as Intelligent Multimodal On-Throat Wearable Biosensors*" is under reviewed by Nature Nanotechnology now.
