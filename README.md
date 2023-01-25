@@ -25,9 +25,7 @@ The network aims to classify 11 classes of throat activities, including
 
 **speaking yes/no/one/two, nodding/shaking/stretch, nodding+yes/nodding+no/shaking+yes/shaking+no**. 
 
-The classification accuracies of the time-domain model and frequency-domain model could reach up to **76.28% ±1.25%** and **89.57% ±2.26%** respectively. 
-
-The final classification accuracy of the fused model could reach up to **92.73% ±0.82%** for 11 throat activities.
+Under non-cross-person experiments, the classification accuracies of the time-domain model and frequency-domain model could reach up to **76.28% ±1.25%** and **89.57% ±2.26%** respectively. The final classification accuracy of the fused model could reach up to **92.73% ±0.82%** for 11 throat activities, and **82.68% ±1.44%** on gender-balanced dataset. For personalization, accuracy can reach up tp **84.21% ±5.82%** after fine-tuning the third MLP.
 
 Addational
 ==========
